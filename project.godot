@@ -1,0 +1,18 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Pirate Island"
+run/main_scene="res://Scenes/game.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icons/icon512x512.png"
+config/macos_native_icon="res://icons/icon.icns"
+config/windows_native_icon="res://icons/icon512x512.ico"
