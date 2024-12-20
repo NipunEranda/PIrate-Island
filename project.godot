@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="Pirate Island"
-run/main_scene="res://Scenes/game.tscn"
+run/main_scene="res://Scenes/Main_Menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icons/icon512x512.png"
 config/macos_native_icon="res://icons/icon.icns"
 config/windows_native_icon="res://icons/icon512x512.ico"
+
+[autoload]
+
+GameManager="*res://Scripts/Core/GameManager.gd"
